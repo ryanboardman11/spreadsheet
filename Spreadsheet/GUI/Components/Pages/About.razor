@@ -1,0 +1,66 @@
+﻿@page "/"
+
+<PageTitle>About Spreadsheet</PageTitle>
+
+<div class="about-container">
+    <h1>Welcome to Our Spreadsheet Application</h1>
+    <p>
+        This application is a Spreadsheet that allows you to keep track of your data.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+        <li><b>Interactive Grid:</b> Easily inputdata in a grid format. Each cell can contain numbers, text, or formulas.</li>
+        <li><b>Formulas:</b> Input formulas starting with <code>=</code> to perform calculations across cells.</li>
+        <li><b>Files:</b> Save and load your spreadsheets to continue where you left off. All data is stored in JSON format.</li>
+    </ul>
+
+    <h2>Additional Feature: Dark Mode Toggle</h2>
+    <p>
+        Our Spreadsheet includes an <b>Additional Feature</b> that lets you switch between Light Mode and Dark Mode with a simple button click.
+    </p>
+    <h2>Get Started</h2>
+    <p>
+       Click on the Spreadsheet page on the left to start making your own spreadsheet.
+    </p>
+    <h2>Authors</h2>
+    <p>
+        Minh Quoc Vo and Ryan Boardman
+    </p>
+</div>
+
+<style>
+    .about-container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #000000;
+        border-radius: 8px;
+    }
+
+    h1, h2 {
+        color: #333333;
+    }
+
+    p, li {
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+
+    .about-container ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    .dark-mode .about-container {
+        background-color: #121212;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+    }
+
+    .dark-mode h1, .dark-mode h2 {
+        color: #f5f5f5;
+    }
+</style>
